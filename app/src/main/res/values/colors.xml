@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="splash_selected">@android:color/white</color>
+    <color name="splash_unselected">#4D000000</color>
+    <color name="cyan_500">#00BCD4</color>
+    <color name="light_blue_500">#03A9F4</color>
+
+    <color name="theme">#0E2431</color>
+    <color name="gray">#8c8c8c</color>
+    <color name="text_gray">#87878B</color>
+
+    <color name="login_bg">#52F6EE</color>
+    <color name="blue">#3737EC</color>
+    <color name="transparent">#00000000</color>
+</resources>

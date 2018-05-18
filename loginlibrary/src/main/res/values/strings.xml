@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">LoginLibrary</string>
+
+    <string name="login">Login</string>
+    <string name="login_describe1">FIREFLY FOREST</string>
+    <string name="login_describe2">SHOW YOUR IDEAS</string>
+    <string name="sign_up_describe">Have an account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+
+
+
+</resources>

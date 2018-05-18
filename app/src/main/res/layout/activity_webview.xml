@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <include layout="@layout/action_bar"/>
+    <RelativeLayout
+        android:id="@+id/rl_webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/action_bar">
+        <Button
+            android:id="@+id/bt_jump"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="to_login"
+            android:visibility="gone"/>
+        <WebView
+            android:id="@+id/webview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/ll_ss"
+            >
+        </WebView>
+        <LinearLayout
+            android:id="@+id/ll_ss"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/text_gray"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

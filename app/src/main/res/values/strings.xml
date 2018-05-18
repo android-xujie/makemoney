@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MakeMoney</string>
+
+    <string name="phone_login">手机登录</string>
+    <string name="phone_reg">注册帐号</string>
+
+    <string name="splash_pre_button_description">Pre</string>
+    <string name="splash_next_button_description">Next</string>
+    <string name="splash_finish_button_description">Finish</string>
+    <string name="splash_finish_button_description_wait">Preparing, please wait…</string>
+
+    <string name="splash_section_1">Add your packages quickly and easily</string>
+    <string name="splash_intro_1">Support 640+ express companies all over the world.</string>
+    <string name="splash_section_2">Input numbers by just one touch</string>
+    <string name="splash_intro_2">Scan the number and then, they are recognized.</string>
+    <string name="splash_section_3">Keep the delivery status updated</string>
+    <string name="splash_intro_3">Push notification when the delivery status is refreshed, so you can get the latest information.</string>
+
+    <string name="login">Login</string>
+    <string name="login_describe1">FIREFLY FOREST</string>
+    <string name="login_describe2">SHOW YOUR IDEAS</string>
+    <string name="sign_up_describe">Have an account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+</resources>

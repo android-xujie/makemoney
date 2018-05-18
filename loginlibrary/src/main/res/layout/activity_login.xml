@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/login_bg"
+                android:fitsSystemWindows="true"
+                tools:context=".ui.LoginActivity">
+
+    <include
+        layout="@layout/action_bar"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/action_bar"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:id="@+id/scale_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <ImageView
+                    android:layout_width="@dimen/dp55"
+                    android:layout_height="@dimen/dp55"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@mipmap/project_detail_cir"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp5"
+                    android:gravity="center"
+                    android:text="@string/login_describe1"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/sp24"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/login_describe2"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/sp16"/>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true">
+
+                <include
+                    android:id="@+id/input_layout"
+                    layout="@layout/input_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp130"/>
+
+                <include
+                    android:id="@+id/layout_progress"
+                    layout="@layout/layout_progress"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp130"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/btn_login"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/input_layout"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="@dimen/dp15"
+                    android:background="@drawable/text_bg"
+                    android:gravity="center"
+                    android:paddingBottom="@dimen/dp2"
+                    android:paddingLeft="@dimen/dp15"
+                    android:paddingRight="@dimen/dp15"
+                    android:paddingTop="@dimen/dp2"
+                    android:text="@string/login"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/sp20"/>
+            </RelativeLayout>
+        </RelativeLayout>
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <FrameLayout
+            android:id="@+id/reveal_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical"
+            android:visibility="invisible" />
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_sign_up"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/tv_sign_up"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="@string/sign_up"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/tv_success"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="success"
+            android:textColor="@android:color/white"
+            android:visibility="invisible" />
+
+        <View
+            android:id="@+id/line_view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="35dp"
+            android:background="@android:color/white"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</RelativeLayout>
